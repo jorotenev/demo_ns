@@ -70,6 +70,7 @@ class ExampleObservable_3 extends Observable {
 		this.interestingProperty = 1
 	}
 }
+
 //https://www.nativescript.org/blog/nativescript-observable-magic-string-property-name-be-gone
 function ObservableProperty() {
     return (target: Observable, propertyKey: string) => {

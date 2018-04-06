@@ -11,6 +11,7 @@ export class HelloWorldModel extends Observable {
 
         // Initialize default values.
         this._counter = 11;
+
         this.updateMessage();
     }
 
@@ -21,7 +22,7 @@ export class HelloWorldModel extends Observable {
     set message(value: string) {
         if (this._message !== value) {
             this._message = value;
-            // this.notifyPropertyChange('message', value)
+            this.notifyPropertyChange('message', value)
         }
     }
 
@@ -36,6 +37,5 @@ export class HelloWorldModel extends Observable {
         } else {
             this.message = `${this._counter} taps left`;
         }
-        console.log(`message=${this.message} counter=${this._counter}`)
     }
 }
