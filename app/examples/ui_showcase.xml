@@ -1,0 +1,108 @@
+<!--
+The markup in NativeScript apps contains a series of user interface components, each
+of which NativeScript renders with a platform-specific iOS or Android native control.
+You can find a full list of user interface components you can use in your app at
+https://docs.nativescript.org/ui/components.
+-->
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" class="page" actionBarHidden="true">
+    <ScrollView>
+
+        <StackLayout class="p-20">
+            <GridLayout rows="100" columns="*,*">
+                <Label verticalAlignment="center" row="0" col="0" text="Label" class="h2"/>
+                <Label verticalAlignment="center" row="0" col="1" text="That's a label"/>
+            </GridLayout>
+            <StackLayout class="hr-light"/>
+            <GridLayout rows="100" columns="*,*">
+
+                <Label verticalAlignment="center" row="1" text="Button" class="h2"/>
+                <Button verticalAlignment="center" col="1" text="Push me"/>
+            </GridLayout>
+            <StackLayout class="hr-light"/>
+            <GridLayout rows="100" columns="*,*">
+
+                <Label verticalAlignment="center" row="1" text="TextField" class="h2"/>
+                <TextField verticalAlignment="center" col="1" hint="Some default text"/>
+            </GridLayout>
+            <StackLayout class="hr-light"/>
+
+            <GridLayout rows="100" columns="*,*">
+                <Label verticalAlignment="center" row="1" text="TextView" class="h2"/>
+                <TextView verticalAlignment="center" col="1" hint="Some multi-line text"/>
+            </GridLayout>
+            <StackLayout class="hr-light"/>
+
+            <GridLayout rows="100" columns="*,*">
+                <Label verticalAlignment="center" row="1" text="SearchBar" class="h2"/>
+                <SearchBar verticalAlignment="center" col="1" hint="Some multi-line text"/>
+            </GridLayout>
+            <StackLayout class="hr-light"/>
+
+            <GridLayout rows="100" columns="*,*">
+                <Label verticalAlignment="center" row="1" text="Switch" class="h2"/>
+                <Switch verticalAlignment="center" col="1"/>
+            </GridLayout>
+            <StackLayout class="hr-light"/>
+
+            <GridLayout rows="100" columns="*,*">
+                <Label verticalAlignment="center" row="1" text="Slider" class="h2"/>
+                <Slider value="50" maxValue="100" verticalAlignment="center" col="1"/>
+            </GridLayout>
+            <StackLayout class="hr-light"/>
+
+            <GridLayout rows="100" columns="*,*">
+                <Label verticalAlignment="center" row="1" text="Progress" class="h2"/>
+                <Progress value="50" maxValue="100" verticalAlignment="center" col="1"/>
+            </GridLayout>
+            <StackLayout class="hr-light"/>
+
+
+            <GridLayout rows="100" columns="*,*">
+                <Label verticalAlignment="center" row="1" text="ActivityIndicator" class="h2"/>
+                <ActivityIndicator busy="true" verticalAlignment="center" col="1"/>
+            </GridLayout>
+            <StackLayout class="hr-light"/>
+
+
+            <GridLayout rows="100" columns="*,*">
+                <Label verticalAlignment="center" row="1" text="Image" class="h2"/>
+                <Image src="https://seeklogo.com/images/N/nativescript-logo-309BDE68D3-seeklogo.com.png"
+                       stretch="none" verticalAlignment="center" horizontalAlignment="center"
+                       col="1"/>
+            </GridLayout>
+            <StackLayout class="hr-light"/>
+
+            <GridLayout rows="100,100" columns="*,*">
+                <Label verticalAlignment="center" row="0" colSpan="2" text="SegmentedBar" class="h2"/>
+                <SegmentedBar colSpan="2" row="1">
+                    <SegmentedBar.items>
+                        <SegmentedBarItem title="Petrol" />
+                        <SegmentedBarItem title="Diesel" />
+                        <SegmentedBarItem title="Electric" />
+                    </SegmentedBar.items>
+                </SegmentedBar>
+            </GridLayout>
+            <StackLayout class="hr-light"/>
+
+
+
+            <GridLayout rows="100" columns="*,*">
+                <Label verticalAlignment="center" row="1" text="DatePicker" class="h2"/>
+                <DatePicker verticalAlignment="center" horizontalAlignment="center"
+                       col="1"/>
+            </GridLayout>
+            <StackLayout class="hr-light"/>
+
+
+            <GridLayout rows="100" columns="*,*">
+                <Label verticalAlignment="center" row="1" text="TimePicker" class="h2"/>
+                <TimePicker verticalAlignment="center" horizontalAlignment="center"
+                       col="1"/>
+            </GridLayout>
+            <StackLayout class="hr-light"/>
+
+
+        </StackLayout>
+    </ScrollView>
+
+</Page>
