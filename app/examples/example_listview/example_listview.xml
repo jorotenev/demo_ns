@@ -1,0 +1,29 @@
+<!--
+SoftUni - Intro to NativeScript. 2018
+The file defines the layout of the ListView example.
+Each item is displayed in a GridLayout with a row with height 80px and two columns
+-->
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page" actionBarHidden="true">
+
+
+    <StackLayout class="p-20">
+        <Button text="Load another" tap="onLoadAnotherBtnPressed"/>
+        <Label text="{{loadedItems.length, 'Loaded items: ' + loadedItems.length}}"/>
+        <StackLayout class="hr-light"/>
+        <ListView
+                loadMoreItems="listViewLoadMoreItems"
+                items="{{loadedItems}}"
+        >
+            <ListView.itemTemplate>
+                <GridLayout rows="80" columns="*,*">
+                    <Label textWrap="true" class="h3" verticalAlignment="center" col="0"
+                           text="{{rank + '. ' + title}}"/>
+                    <StackLayout verticalAlignment="center" col="1">
+                        <Label text="{{author}}"/>
+                        <Label text="{{published, 'Published: ' + published}}"/>
+                    </StackLayout>
+                </GridLayout>
+            </ListView.itemTemplate>
+        </ListView>
+    </StackLayout>
+</Page>

@@ -1,0 +1,702 @@
+[
+  {
+    "rnk": 1,
+    "tt": "Middlemarch",
+    "au": "George Eliot",
+    "yr": "1997",
+    "isbn": "9780192834027"
+  },
+  {
+    "rnk": 2,
+    "tt": "Moby-Dick",
+    "au": "Herman Melville",
+    "yr": "1998",
+    "isbn": "9780192833853"
+  },
+  {
+    "rnk": 3,
+    "tt": "Anna Karenina",
+    "au": "Leo Tolstoy",
+    "yr": "",
+    "isbn": "9780585053905"
+  },
+  {
+    "rnk": 4,
+    "tt": "The Portrait of a Lady",
+    "au": "Henry James",
+    "yr": "1984",
+    "isbn": "9780140432237"
+  },
+  {
+    "rnk": 5,
+    "tt": "HEART OF DARKNESS",
+    "au": "Joseph Conrad",
+    "yr": "1988",
+    "isbn": "9780393955521"
+  },
+  {
+    "rnk": 6,
+    "tt": "In Search of Lost Time",
+    "au": "Derek York",
+    "yr": "1997",
+    "isbn": "9780585258980"
+  },
+  {
+    "rnk": 7,
+    "tt": "Jane Eyre",
+    "au": "Charlotte Brontë",
+    "yr": "1998",
+    "isbn": "9780192833563"
+  },
+  {
+    "rnk": 8,
+    "tt": "Disgrace",
+    "au": "J. M. Coetzee",
+    "yr": "1999",
+    "isbn": ""
+  },
+  {
+    "rnk": 9,
+    "tt": "Mrs. Dalloway",
+    "au": "Virginia Woolf",
+    "yr": "",
+    "isbn": ""
+  },
+  {
+    "rnk": 10,
+    "tt": "Don Quixote",
+    "au": "Miguel de Cervantes",
+    "yr": "1982",
+    "isbn": "9780906399378"
+  },
+  {
+    "rnk": 11,
+    "tt": "Pride and Prejudice",
+    "au": "Kenneth L. Moler",
+    "yr": "1989",
+    "isbn": "9780805780321"
+  },
+  {
+    "rnk": 12,
+    "tt": "Robinson Crusoe",
+    "au": "Daniel Defoe",
+    "yr": "1719",
+    "isbn": "9780585093406"
+  },
+  {
+    "rnk": 13,
+    "tt": "David Copperfield",
+    "au": "Charles Dickens",
+    "yr": "1981",
+    "isbn": ""
+  },
+  {
+    "rnk": 14,
+    "tt": "Wuthering Heights",
+    "au": "Emily Bronte",
+    "yr": "1990",
+    "isbn": "9780393957600"
+  },
+  {
+    "rnk": 15,
+    "tt": "The Code of the Woosters",
+    "au": "",
+    "yr": "1938",
+    "isbn": ""
+  },
+  {
+    "rnk": 16,
+    "tt": "Brighton Rock",
+    "au": "Graham Greene",
+    "yr": "1993",
+    "isbn": ""
+  },
+  {
+    "rnk": 17,
+    "tt": "Tess of the D'Urbervilles",
+    "au": "Thomas Hardy",
+    "yr": "1979",
+    "isbn": "9780393045079"
+  },
+  {
+    "rnk": 18,
+    "tt": "SCOOP",
+    "au": "Evelyn Waugh",
+    "yr": "1975",
+    "isbn": "9780812818840"
+  },
+  {
+    "rnk": 19,
+    "tt": "The War of the Worlds",
+    "au": "H. G. Wells",
+    "yr": "2001",
+    "isbn": ""
+  },
+  {
+    "rnk": 20,
+    "tt": "Tristram Shandy",
+    "au": "Laurence Sterne",
+    "yr": "1980",
+    "isbn": "9780393950342"
+  },
+  {
+    "rnk": 21,
+    "tt": "1984",
+    "au": "George Orwell",
+    "yr": "1977",
+    "isbn": "9780452254268"
+  },
+  {
+    "rnk": 22,
+    "tt": "A Passage to India",
+    "au": "E. M. Forster",
+    "yr": "1984",
+    "isbn": "9780156711425"
+  },
+  {
+    "rnk": 23,
+    "tt": "Madame Bovary",
+    "au": "Gustave Flaubert",
+    "yr": "1998",
+    "isbn": "9780192833990"
+  },
+  {
+    "rnk": 24,
+    "tt": "ULYSSES",
+    "au": "James Joyce",
+    "yr": "1961",
+    "isbn": "9780394703800"
+  },
+  {
+    "rnk": 25,
+    "tt": "The Moonstone",
+    "au": "Wilkie Collins",
+    "yr": "1998",
+    "isbn": ""
+  },
+  {
+    "rnk": 26,
+    "tt": "Cranford",
+    "au": "Elizabeth Cleghorn Gaskell",
+    "yr": "1998",
+    "isbn": ""
+  },
+  {
+    "rnk": 27,
+    "tt": "Frankenstein",
+    "au": "Mary Wollstonecraft Shelley",
+    "yr": "1989",
+    "isbn": "9780140367126"
+  },
+  {
+    "rnk": 28,
+    "tt": "Tom Jones",
+    "au": "Henry Fielding",
+    "yr": "1996",
+    "isbn": "9780192831101"
+  },
+  {
+    "rnk": 29,
+    "tt": "Life: a User's Manual",
+    "au": "Georges Perec",
+    "yr": "1987",
+    "isbn": ""
+  },
+  {
+    "rnk": 30,
+    "tt": "Atonement",
+    "au": "Kim Martin Sadler",
+    "yr": "1996",
+    "isbn": "9780829811476"
+  },
+  {
+    "rnk": 31,
+    "tt": "Suite Francaise",
+    "au": "Garofalo Robert",
+    "yr": "",
+    "isbn": ""
+  },
+  {
+    "rnk": 32,
+    "tt": "A Dance to the Music of Time",
+    "au": "Anthony Powell",
+    "yr": "1971",
+    "isbn": "9780434599196"
+  },
+  {
+    "rnk": 33,
+    "tt": "Clarissa",
+    "au": "Samuel Richardson",
+    "yr": "1971",
+    "isbn": "9780030840142"
+  },
+  {
+    "rnk": 34,
+    "tt": "The Big Sleep",
+    "au": "Raymond Chandler",
+    "yr": "1986",
+    "isbn": "9780910457095"
+  },
+  {
+    "rnk": 35,
+    "tt": "Lucky Jim",
+    "au": "Kingsley Amis",
+    "yr": "2003",
+    "isbn": "9780620295086"
+  },
+  {
+    "rnk": 36,
+    "tt": "Les Misérables",
+    "au": "Victor Hugo",
+    "yr": "",
+    "isbn": ""
+  },
+  {
+    "rnk": 37,
+    "tt": "The Warden",
+    "au": "Anthony Trollope",
+    "yr": "",
+    "isbn": ""
+  },
+  {
+    "rnk": 38,
+    "tt": "The Great Gatsby",
+    "au": "F. Scott Fitzgerald",
+    "yr": "1990",
+    "isbn": "9780805779608"
+  },
+  {
+    "rnk": 39,
+    "tt": "Things Fall Apart",
+    "au": "Chinua Achebe",
+    "yr": "1996",
+    "isbn": "9780585106595"
+  },
+  {
+    "rnk": 40,
+    "tt": "THE HOUSE OF MIRTH",
+    "au": "Edith Wharton",
+    "yr": "1990",
+    "isbn": "9780393959017"
+  },
+  {
+    "rnk": 41,
+    "tt": "The Hound of the Baskervilles",
+    "au": "Arthur Conan Doyle",
+    "yr": "1985",
+    "isbn": ""
+  },
+  {
+    "rnk": 42,
+    "tt": "The Adventures of Huckleberry Finn",
+    "au": "Mark Twain",
+    "yr": "1948",
+    "isbn": "9780030097706"
+  },
+  {
+    "rnk": 43,
+    "tt": "Rabbit, Run",
+    "au": "John Updike",
+    "yr": "1996",
+    "isbn": "9780449911655"
+  },
+  {
+    "rnk": 44,
+    "tt": "Nausea",
+    "au": "Jean-Paul Sartre",
+    "yr": "1962",
+    "isbn": ""
+  },
+  {
+    "rnk": 45,
+    "tt": "The Voyeur",
+    "au": "Alberto Moravia",
+    "yr": "1986",
+    "isbn": ""
+  },
+  {
+    "rnk": 46,
+    "tt": "The Prime of Miss Jean Brodie",
+    "au": "Muriel Spark",
+    "yr": "2000",
+    "isbn": "9780141181424"
+  },
+  {
+    "rnk": 47,
+    "tt": "The Unbearable Lightness of Being",
+    "au": "Milan Kundera",
+    "yr": "1984",
+    "isbn": ""
+  },
+  {
+    "rnk": 48,
+    "tt": "Go Tell it on the Mountain",
+    "au": "James Baldwin",
+    "yr": "1954",
+    "isbn": "9780718101619"
+  },
+  {
+    "rnk": 49,
+    "tt": "The Grapes of Wrath",
+    "au": "John Steinbeck",
+    "yr": "1972",
+    "isbn": "9780670018086"
+  },
+  {
+    "rnk": 50,
+    "tt": "Beloved",
+    "au": "Toni Morrison",
+    "yr": "1987",
+    "isbn": "9780452280625"
+  },
+  {
+    "rnk": 51,
+    "tt": "Underworld",
+    "au": "Don DeLillo",
+    "yr": "1997",
+    "isbn": ""
+  },
+  {
+    "rnk": 52,
+    "tt": "The Catcher in the Rye",
+    "au": "J.D. Salinger",
+    "yr": "1993",
+    "isbn": "9780805780284"
+  },
+  {
+    "rnk": 53,
+    "tt": "The Handmaid's Tale",
+    "au": "Margaret Atwood",
+    "yr": "",
+    "isbn": ""
+  },
+  {
+    "rnk": 54,
+    "tt": "Lolita",
+    "au": "Vladimir Vladimirovich Nabokov",
+    "yr": "1983",
+    "isbn": "9780425089781"
+  },
+  {
+    "rnk": 55,
+    "tt": "Austerlitz",
+    "au": "Winfried Georg Sebald",
+    "yr": "2001",
+    "isbn": ""
+  },
+  {
+    "rnk": 56,
+    "tt": "The Tin Drum",
+    "au": "Günter Grass",
+    "yr": "1993",
+    "isbn": "9780679420330"
+  },
+  {
+    "rnk": 57,
+    "tt": "The Glass Bead Game",
+    "au": "Hermann Hesse",
+    "yr": "2002",
+    "isbn": ""
+  },
+  {
+    "rnk": 58,
+    "tt": "The Savage Detectives",
+    "au": "Natasha Wimmer",
+    "yr": "2007",
+    "isbn": ""
+  },
+  {
+    "rnk": 59,
+    "tt": "London Fields",
+    "au": "Martin Amis",
+    "yr": "1991",
+    "isbn": ""
+  },
+  {
+    "rnk": 60,
+    "tt": "One Hundred Years of Solitude",
+    "au": "Gabriel Garcia Marquez",
+    "yr": "1991",
+    "isbn": "9780805780383"
+  },
+  {
+    "rnk": 61,
+    "tt": "My Name Is Red",
+    "au": "Orhan Pamuk",
+    "yr": "",
+    "isbn": ""
+  },
+  {
+    "rnk": 62,
+    "tt": "Gulliver's Travels",
+    "au": "Jonathan Swift",
+    "yr": "1998",
+    "isbn": ""
+  },
+  {
+    "rnk": 63,
+    "tt": "The Strange Case of Dr Jekyll and Mr Hyde",
+    "au": "Robert Louis Stevenson",
+    "yr": "1996",
+    "isbn": ""
+  },
+  {
+    "rnk": 64,
+    "tt": "The Cairo Trilogy",
+    "au": "NAGUIB MAHFOUZ",
+    "yr": "",
+    "isbn": ""
+  },
+  {
+    "rnk": 65,
+    "tt": "Dr Zhivago",
+    "au": "Boris Leonidovich Pasternak",
+    "yr": "1998",
+    "isbn": ""
+  },
+  {
+    "rnk": 66,
+    "tt": "Crime and Punishment",
+    "au": "Fyodor Dostoyevsky",
+    "yr": "1975",
+    "isbn": "9780393055344"
+  },
+  {
+    "rnk": 67,
+    "tt": "A BEND IN THE RIVER",
+    "au": "V. S. Naipaul",
+    "yr": "1979",
+    "isbn": "9780394505732"
+  },
+  {
+    "rnk": 68,
+    "tt": "Crash",
+    "au": "Jerry Spinelli",
+    "yr": "1996",
+    "isbn": ""
+  },
+  {
+    "rnk": 69,
+    "tt": "If On a Winter's Night a Traveller",
+    "au": "Italo Calvino",
+    "yr": "1981",
+    "isbn": ""
+  },
+  {
+    "rnk": 70,
+    "tt": "The Leopard",
+    "au": "Lynn M. Stone",
+    "yr": "1989",
+    "isbn": "9780865925021"
+  },
+  {
+    "rnk": 71,
+    "tt": "The Dream of the Red Chamber",
+    "au": "Jeannie Jinsheng Yi",
+    "yr": "2004",
+    "isbn": ""
+  },
+  {
+    "rnk": 72,
+    "tt": "Dinner at the Homesick Restaurant",
+    "au": "Anne Tyler",
+    "yr": "1982",
+    "isbn": ""
+  },
+  {
+    "rnk": 73,
+    "tt": "All Quiet on the Western Front",
+    "au": "Erich Maria Remarque",
+    "yr": "1996",
+    "isbn": "9780821223123"
+  },
+  {
+    "rnk": 74,
+    "tt": "Waiting for the Mahatma",
+    "au": "R. K. Narayan",
+    "yr": "1955",
+    "isbn": ""
+  },
+  {
+    "rnk": 75,
+    "tt": "Cider with Rosie",
+    "au": "Laurie Lee",
+    "yr": "1965",
+    "isbn": ""
+  },
+  {
+    "rnk": 76,
+    "tt": "The Trial",
+    "au": "Howard Myers",
+    "yr": "1991",
+    "isbn": "9780314824417"
+  },
+  {
+    "rnk": 77,
+    "tt": "Catch-22",
+    "au": "Joseph Heller",
+    "yr": "",
+    "isbn": ""
+  },
+  {
+    "rnk": 78,
+    "tt": "Alice's Adventures in Wonderland",
+    "au": "Lewis Carroll",
+    "yr": "2003",
+    "isbn": ""
+  },
+  {
+    "rnk": 79,
+    "tt": "Wide Sargasso Sea",
+    "au": "Jean Rhys",
+    "yr": "1966",
+    "isbn": "9780393000566"
+  },
+  {
+    "rnk": 80,
+    "tt": "Oscar and Lucinda",
+    "au": "Laura Jones",
+    "yr": "1998",
+    "isbn": ""
+  },
+  {
+    "rnk": 81,
+    "tt": "The Name of the Rose",
+    "au": "Umberto Eco",
+    "yr": "1983",
+    "isbn": ""
+  },
+  {
+    "rnk": 82,
+    "tt": "The Stranger",
+    "au": "Albert Camus",
+    "yr": "1990",
+    "isbn": "9780745198385"
+  },
+  {
+    "rnk": 83,
+    "tt": "Germinal",
+    "au": "Emile Zola",
+    "yr": "1996",
+    "isbn": "9780460875813"
+  },
+  {
+    "rnk": 84,
+    "tt": "The Three Musketeers",
+    "au": "Alexandre Dumas",
+    "yr": "1996",
+    "isbn": "9780899681481"
+  },
+  {
+    "rnk": 85,
+    "tt": "The Red and the Black",
+    "au": "Brian A. Sparkes",
+    "yr": "1996",
+    "isbn": "9780415126601"
+  },
+  {
+    "rnk": 86,
+    "tt": "Old Goriot",
+    "au": "Honore de Balzac",
+    "yr": "1907",
+    "isbn": ""
+  },
+  {
+    "rnk": 87,
+    "tt": "On the Road",
+    "au": "Jack Kerouac",
+    "yr": "1991",
+    "isbn": "9780887508417"
+  },
+  {
+    "rnk": 88,
+    "tt": "Eugene Onegin",
+    "au": "Burton D. Fisher",
+    "yr": "",
+    "isbn": ""
+  },
+  {
+    "rnk": 89,
+    "tt": "The Golden Notebook",
+    "au": "Doris May Lessing",
+    "yr": "1962",
+    "isbn": "9780671287702"
+  },
+  {
+    "rnk": 90,
+    "tt": "Under the Net",
+    "au": "Iris Murdoch",
+    "yr": "1964",
+    "isbn": "9780670001620"
+  },
+  {
+    "rnk": 91,
+    "tt": "The Tale of Genji",
+    "au": "Murasaki Shikibu",
+    "yr": "1976",
+    "isbn": "9780394483283"
+  },
+  {
+    "rnk": 92,
+    "tt": "Cold Comfort Farm",
+    "au": "Stella Gibbons",
+    "yr": "2000",
+    "isbn": ""
+  },
+  {
+    "rnk": 93,
+    "tt": "Tinker, Tailor, Soldier, Spy",
+    "au": "John Le Carré",
+    "yr": "1974",
+    "isbn": ""
+  },
+  {
+    "rnk": 94,
+    "tt": "Midnight's Children",
+    "au": "Salman Rushdie",
+    "yr": "",
+    "isbn": "9780704301627"
+  },
+  {
+    "rnk": 95,
+    "tt": "The Sorrows of Young Werther",
+    "au": "Johann Wolfgang von Goethe",
+    "yr": "1982",
+    "isbn": "9780451521545"
+  },
+  {
+    "rnk": 96,
+    "tt": "One Thousand and One Nights",
+    "au": "Olga Dugina",
+    "yr": "",
+    "isbn": ""
+  },
+  {
+    "rnk": 97,
+    "tt": "The Hitchhiker's Guide to the Galaxy",
+    "au": "Douglas Adams",
+    "yr": "1989",
+    "isbn": ""
+  },
+  {
+    "rnk": 98,
+    "tt": "The Home and the World",
+    "au": "Rabindranath Tagore",
+    "yr": "2005",
+    "isbn": ""
+  },
+  {
+    "rnk": 99,
+    "tt": "To Kill a Mockingbird",
+    "au": "Harper Lee",
+    "yr": "1999",
+    "isbn": "9780791047798"
+  },
+  {
+    "rnk": 100,
+    "tt": "The Lord of the Rings",
+    "au": "Jane Chance",
+    "yr": "2001",
+    "isbn": "9780813190174"
+  }
+]
