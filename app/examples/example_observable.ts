@@ -1,65 +1,73 @@
-import { Observable } from 'data/observable';
 /**
+* SoftUni - Intro to NativeScript. 2018
+*
 * This file illustrates different ways to use Observables in NativeScript.
-* This file is the "view-model" - i.e. it is set as a bindingContext.
+* This file acts as a "view-model" - i.e. it is set as a bindingContext in the code-behind.
+* In the comments below, a code-behind and a view are shown, that can use a view-model from the current file.
 */
 
-/* example-page.xml
+/* main-page.xml
 <Page navigatingTo="navigatingTo">
 	<StackLayout>
-		<Label text="{{interestingProperty}}"/>
+		<Label text="{{message}}"/>
 	</StackLayout>
 </Page>
 */
 
-/* example-page.ts
+/* main-page.ts
 export function navigatingTo(args){
 	let page = args.object;
 	page.bindingContext = new <some-class-from-below>();
 }
 */
+import { Observable } from 'data/observable';
 
-class ExampleObservable_1 extends Observable {
+
+class HelloWorldModel_1 extends Observable {
 	/*
 		Manually invoke the notifyPropertyChange() method of the Observable class
 	*/
 
-	private _interestingProperty : number;
+	private _message : number;
 
 	constructor(){
 		super();
 	}
+
 	public businessLogic() {
-		this.interestingProperty = 1;
+		this.message = 1;
 	}
 
-	get interestingProperty() {
-		return this._interestingProperty
+	get message() {
+		return this._message
 	}
 
-	set interestingProperty(val:number) {
-		this._interestingProperty = val;
-		this.notifyPropertyChange("interestingProperty", val)
+	set message(val:number) {
+		this._message = val;
+		this.notifyPropertyChange("message", val)
 	}
 }
 
-class ExampleObservable_2 extends Observable {
+class HelloWorldModel_2 extends Observable {
 	/*
 		Use the set() method of the Observable class. Properties created/changed with set() are accessible
-		to the binding expression in the view (i.e. the "{{interestingProperty}}")
+		to the binding expression in the view (i.e. the "{{message}}")
 	*/
 	constructor(){
 			super();
 	}
 	public businessLogic(){
-		this.set("interestingProperty", 1)
+		this.set("message", 1)
 	}
 }
 
-class ExampleObservable_3 extends Observable {
+class HelloWorldModel_3 extends Observable {
 	/*
-		Use a decorator on the property which will notify that the value of the property has been changed.
+		Use a decorator on the property. The decorator handles the details of notifying that the value of the
+		property has changed. 
+		Result - cleaner code.
 	*/
+
 	@ObservableProperty()
 	private interestingProperty : number;
 
@@ -71,7 +79,9 @@ class ExampleObservable_3 extends Observable {
 	}
 }
 
-//https://www.nativescript.org/blog/nativescript-observable-magic-string-property-name-be-gone
+/**
+*	https://www.nativescript.org/blog/nativescript-observable-magic-string-property-name-be-gone
+*/
 function ObservableProperty() {
     return (target: Observable, propertyKey: string) => {
         Object.defineProperty(target, propertyKey, {
