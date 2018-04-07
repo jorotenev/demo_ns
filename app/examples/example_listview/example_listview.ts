@@ -7,6 +7,8 @@
  * - implementing event handlers for the "load more" button tap event & the loadMoreItems event of the ListView
  *
  */
+import {ItemEventData} from "tns-core-modules/ui/list-view";
+
 import {ExampleViewModel} from "./example_viewmodel";
 
 
@@ -24,6 +26,16 @@ export function navigatingTo(args) {
  */
 export function onLoadAnotherBtnPressed() {
     viewModel.loadAnother();
+}
+
+/**
+ * Executed when a user taps on an item from the ListView
+ */
+export function onItemTap(ev: ItemEventData) {
+    let selectedItemAtIndex = ev.index;
+    let item = viewModel.loadedItems.getItem(selectedItemAtIndex);
+    alert(`Title: ${item.title}, Author: ${item.author}`);
+    console.dir(item)
 }
 
 /**

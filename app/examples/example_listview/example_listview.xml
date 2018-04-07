@@ -13,6 +13,7 @@ Each item is displayed in a GridLayout with a row with height 80px and two colum
         <ListView
                 loadMoreItems="listViewLoadMoreItems"
                 items="{{loadedItems}}"
+                itemTap="onItemTap"
         >
             <ListView.itemTemplate>
                 <GridLayout rows="80" columns="*,*">
