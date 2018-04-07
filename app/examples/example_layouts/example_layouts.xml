@@ -1,0 +1,47 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" class="page" actionBarHidden="true">
+    <TabView>
+        <TabView.items>
+            <TabViewItem title="Stack">
+                <TabViewItem.view>
+                    <StackLayout>
+
+                        <Label class="h3" text="<StackLayout>...</StackLayout>"/>
+                        <StackLayout>
+                            <Button class="btn btn-primary" text="Home"/>
+                            <Button class="btn btn-primary" text="About"/>
+                            <Button class="btn btn-primary" text="Contacts"/>
+                        </StackLayout>
+                        <StackLayout class="hr-light"/>
+
+                        <Label class="h3" text="<StackLayout orientation='horizontal'>"/>
+                        <StackLayout orientation="horizontal">
+                            <Button class="btn btn-primary" text="Home"/>
+                            <Button class="btn btn-primary" text="About"/>
+                            <Button class="btn btn-primary" text="Contacts"/>
+                        </StackLayout>
+                    </StackLayout>
+                </TabViewItem.view>
+            </TabViewItem>
+
+            <TabViewItem title="Grid">
+                <TabViewItem.view>
+                    <StackLayout>
+
+                        <GridLayout rows="50,auto,auto" columns="*,*">
+                            <Label class="h1 text-center" text="Data form" row="0" colSpan="2"/>
+
+                            <Label class="h3" verticalAlignment="center" text="Name" row="1" col="0"/>
+                            <TextField hint="Enter name" row="1" col="1"/>
+
+                            <Button text="Submit" row="2" colSpan="2"/>
+                        </GridLayout>
+
+
+                    </StackLayout>
+                </TabViewItem.view>
+            </TabViewItem>
+
+
+        </TabView.items>
+    </TabView>
+</Page>
