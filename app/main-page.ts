@@ -28,4 +28,6 @@ export function navigatingTo(args: EventData) {
     https://docs.nativescript.org/core-concepts/data-binding.
     */
     page.bindingContext = new HelloWorldModel();
+
 }
+
