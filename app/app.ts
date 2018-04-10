@@ -11,9 +11,8 @@ const examples = {
     ui: 'examples/ui_showcase',
     layouts: 'examples/example_layouts/example_layouts',
     listview: 'examples/example_listview/example_listview',
-    observable: 'examples/example_observable'
 };
-application.start({moduleName: examples.layouts});
+application.start({moduleName: examples.main_page});
 
 /*
 Do not place any code after the application has been started as it will not
