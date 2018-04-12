@@ -8,11 +8,12 @@ import * as application from 'application';
 
 const examples = {
     main_page: 'main-page',
+    simple_observable: "examples/example_simple_observable/simple-obs-page",
     ui: 'examples/ui_showcase',
     layouts: 'examples/example_layouts/example_layouts',
     listview: 'examples/example_listview/example_listview',
 };
-application.start({moduleName: examples.main_page});
+application.start({moduleName: examples.simple_observable});
 
 /*
 Do not place any code after the application has been started as it will not
