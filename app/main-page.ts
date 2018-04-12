@@ -9,6 +9,8 @@ import {HelloWorldModel} from './main-view-model';
 import {HelloWorldModel_1, HelloWorldModel_2, HelloWorldModel_3} from "~/examples/example_observable"
 
 // Event handler for Page "navigatingTo" event attached in main-page.xml
+let viewModel;
+
 export function navigatingTo(args: EventData) {
     /*
     This gets a reference this page’s <Page> UI component. You can
@@ -27,7 +29,16 @@ export function navigatingTo(args: EventData) {
     You can learn more about data binding in NativeScript at
     https://docs.nativescript.org/core-concepts/data-binding.
     */
-    page.bindingContext = new HelloWorldModel();
+    viewModel = new HelloWorldModel();
+    page.bindingContext = viewModel;
 
+}
+
+export function tapped() {
+    /*
+    Event handler for the Button "tap" event.
+     */
+    console.log("button pressed");
+    viewModel.onTap();
 }
 
