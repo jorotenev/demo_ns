@@ -11,7 +11,7 @@
                             <Button class="btn btn-primary" text="About"/>
                             <Button class="btn btn-primary" text="Contacts"/>
                         </StackLayout>
-                        <StackLayout class="hr-light"/>
+                        <StackLayout class="hr-dark" marginBottom="20" marginTop="10"/>
 
                         <Label class="h3" text="<StackLayout orientation='horizontal'>"/>
                         <StackLayout orientation="horizontal">

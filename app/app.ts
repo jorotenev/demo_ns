@@ -13,7 +13,7 @@ const examples = {
     layouts: 'examples/example_layouts/example_layouts',
     listview: 'examples/example_listview/example_listview',
 };
-application.start({moduleName: examples.simple_observable});
+application.start({moduleName: examples.layouts});
 
 /*
 Do not place any code after the application has been started as it will not
