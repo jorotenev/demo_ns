@@ -1,8 +1,6 @@
 import {EventData, Observable, PropertyChangeData} from 'data/observable';
 import {Page} from 'ui/page';
 
-
-// Event handler for Page "navigatingTo" event attached in main-page.xml
 let myObservable;
 
 export function navigatingTo(args: EventData) {

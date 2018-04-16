@@ -6,14 +6,7 @@ purpose of the file is to pass control to the app’s first module.
 
 import * as application from 'application';
 
-const examples = {
-    main_page: 'main-page',
-    simple_observable: "examples/example_simple_observable/simple-obs-page",
-    ui: 'examples/ui_showcase',
-    layouts: 'examples/example_layouts/example_layouts',
-    listview: 'examples/example_listview/example_listview',
-};
-application.start({moduleName: examples.layouts});
+application.start({moduleName: "choose-demo-page"});
 
 /*
 Do not place any code after the application has been started as it will not

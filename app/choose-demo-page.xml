@@ -1,0 +1,12 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page" actionBarHidden="true">
+    <!--padding 20-->
+    <StackLayout class="p-20">
+
+        <ListView items="{{demos}}" itemTap="onTap">
+            <ListView.itemTemplate>
+                <Label text="{{name}}" class="btn"/>
+            </ListView.itemTemplate>
+
+        </ListView>
+    </StackLayout>
+</Page>

@@ -12,7 +12,7 @@ https://docs.nativescript.org/ui/components.
     <Page.actionBar>
         <ActionBar title="My App" icon="" class="action-bar">
         </ActionBar>
-    </Page.actionBar>
+    </Page.actionBar>moni
     <!--
     The StackLayout stacks UI components on the screen—either vertically or horizontally.
     In this case, the StackLayout does vertical stacking; you can change the stacking to
