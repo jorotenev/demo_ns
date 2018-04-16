@@ -1,8 +1,5 @@
-Примерите са базирани на [nativescript-hello-world-ts](https://github.com/NativeScript/template-hello-world-ts)
+[Seminar slides](https://docs.google.com/presentation/d/1xnItC9MhwUnrqdSv-97-2okMOvLrd7TdcfhIhly9d5c/edit?usp=sharing)
 
-* От `app/app.ts` се избира началната страница. `examples` обекта съдържа валидни страници.
-```
-// app/app.ts
-application.start({moduleName: examples.simple_observable});
-```
+Базирано на [nativescript-hello-world-ts](https://github.com/NativeScript/template-hello-world-ts).
+
 
